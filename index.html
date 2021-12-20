@@ -4,20 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"/>
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Work Day Scheduler</title>
+    <title>Work Day Scheduler by Sung Yoo</title>
   </head>
 
   <body>
@@ -26,9 +21,89 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <section class="container">
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">9AM</div>
+        <textarea class="col-10 to-do-content 09AM" id="9"></textarea>
+        <button class="col-1 saveBtn" id="09AM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">10AM</div>
+        <textarea class="col-10 to-do-content 10AM" id="10"></textarea>
+        <button class="col-1 saveBtn" id="10AM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">11AM</div>
+        <textarea class="col-10 to-do-content 11AM" id="11"></textarea>
+        <button class="col-1 saveBtn" id="11AM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">12PM</div>
+        <textarea class="col-10 to-do-content 12PM" id="12"></textarea>
+        <button class="col-1 saveBtn" id="12PM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">1PM</div>
+        <textarea class="col-10 to-do-content 1PM" id="13"></textarea>
+        <button class="col-1 saveBtn" id="1PM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">2PM</div>
+        <textarea class="col-10 to-do-content 2PM" id="14"></textarea>
+        <button class="col-1 saveBtn" id="2PM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">3PM</div>
+        <textarea class="col-10 to-do-content 3PM" id="15"></textarea>
+        <button class="col-1 saveBtn" id="3PM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">4PM</div>
+        <textarea class="col-10 to-do-content 4PM" id="16"></textarea>
+        <button class="col-1 saveBtn" id="4PM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">5PM</div>
+        <textarea class="col-10 to-do-content 5PM" id="17"></textarea>
+        <button class="col-1 saveBtn" id="5PM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">6PM</div>
+        <textarea class="col-10 to-do-content 6PM" id="18"></textarea>
+        <button class="col-1 saveBtn" id="6PM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">7PM</div>
+        <textarea class="col-10 to-do-content 7PM" id="19"></textarea>
+        <button class="col-1 saveBtn" id="7PM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">8PM</div>
+        <textarea class="col-10 to-do-content 8PM" id="20"></textarea>
+        <button class="col-1 saveBtn" id="8PM"><span class="oi oi-box"></span></button>
+      </div>
+
+      <div class="time-block col-12 row">
+        <div class="col-1 border-right hour">9PM</div>
+        <textarea class="col-10 to-do-content 9PM" id="21"></textarea>
+        <button class="col-1 saveBtn" id="9PM"><span class="oi oi-box"></span></button>
+      </div>
+
+
       <!-- Timeblocks go here -->
-    </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
