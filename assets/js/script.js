@@ -37,7 +37,7 @@ let loadEvents = function() {
 }
 let refreshTime = function(){
 
-let currentTime = moment().format('h')
+let currentTime = moment().format('H')
 
 for (i=0; i<currentTime; i++) {
     pastDueSelector = $("#"+i)
